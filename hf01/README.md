@@ -1,6 +1,6 @@
 ## A git műveletek:
 
-`.gitignore` | `e598cab` 
+`.gitignore` | `1ec831d` 
 
 `git switch -c` | `1be8662` 
 
