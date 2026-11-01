@@ -1,0 +1,41 @@
+2026-11-01 15:26:23 indul: lista=lista.txt cél=./letoltesek
+2026-11-01 15:26:23 [1] indul: https://api.frankfurter.dev/v1/latest -> ./letoltesek/api.frankfurter.dev_v1_latest
+2026-11-01 15:26:23 kísérlet 1/4: https://api.frankfurter.dev/v1/latest
+2026-11-01 15:26:23 kész: ./letoltesek/api.frankfurter.dev_v1_latest (439 bájt)
+2026-11-01 15:26:23 [2] indul: https://api.open-meteo.com/v1/forecast?latitude=47.5&longitude=19.05&current=temperature_2m -> ./letoltesek/api.open-meteo.com_v1_forecast_latitude_47.5_longitude_19.05_current_temperature_2m
+2026-11-01 15:26:23 kísérlet 1/4: https://api.open-meteo.com/v1/forecast?latitude=47.5&longitude=19.05&current=temperature_2m
+2026-11-01 15:26:23 kész: ./letoltesek/api.open-meteo.com_v1_forecast_latitude_47.5_longitude_19.05_current_temperature_2m (327 bájt)
+2026-11-01 15:26:23 [3] indul: https://date.nager.at/api/v3/PublicHolidays/2026/HU -> ./letoltesek/date.nager.at_api_v3_PublicHolidays_2026_HU
+2026-11-01 15:26:23 kísérlet 1/4: https://date.nager.at/api/v3/PublicHolidays/2026/HU
+2026-11-01 15:26:24 kész: ./letoltesek/date.nager.at_api_v3_PublicHolidays_2026_HU (2309 bájt)
+2026-11-01 15:26:24 [4] indul: https://httpbin.org/status/500 -> ./letoltesek/httpbin.org_status_500
+2026-11-01 15:26:24 kísérlet 1/4: https://httpbin.org/status/500
+2026-11-01 15:26:25 sikertelen: HTTP hiba: 500; curl: (22) The requested URL returned error: 500 
+2026-11-01 15:26:25 újrapróbálkozás 1/3, várakozás: 1s
+2026-11-01 15:26:26 kísérlet 2/4: https://httpbin.org/status/500
+2026-11-01 15:26:26 sikertelen: HTTP hiba: 500; curl: (22) The requested URL returned error: 500 
+2026-11-01 15:26:26 újrapróbálkozás 2/3, várakozás: 2s
+2026-11-01 15:26:28 kísérlet 3/4: https://httpbin.org/status/500
+2026-11-01 15:26:29 sikertelen: HTTP hiba: 500; curl: (22) The requested URL returned error: 500 
+2026-11-01 15:26:29 újrapróbálkozás 3/3, várakozás: 4s
+2026-11-01 15:26:33 kísérlet 4/4: https://httpbin.org/status/500
+2026-11-01 15:26:33 sikertelen: HTTP hiba: 500; curl: (22) The requested URL returned error: 500 
+2026-11-01 15:26:33 feladom: https://httpbin.org/status/500
+2026-11-01 15:26:33 [5] indul: https://httpbin.org/delay/10 -> ./letoltesek/httpbin.org_delay_10
+2026-11-01 15:26:33 kísérlet 1/4: https://httpbin.org/delay/10
+2026-11-01 15:26:43 kész: ./letoltesek/httpbin.org_delay_10 (266 bájt)
+2026-11-01 15:26:43 [6] indul: https://ez.a.domain.biztosan.nem.letezik/valami.json -> ./letoltesek/ez.a.domain.biztosan.nem.letezik_valami.json
+2026-11-01 15:26:43 kísérlet 1/4: https://ez.a.domain.biztosan.nem.letezik/valami.json
+2026-11-01 15:26:44 sikertelen: a név nem oldható fel; curl: (6) Could not resolve host: ez.a.domain.biztosan.nem.letezik 
+2026-11-01 15:26:44 újrapróbálkozás 1/3, várakozás: 1s
+2026-11-01 15:26:45 kísérlet 2/4: https://ez.a.domain.biztosan.nem.letezik/valami.json
+2026-11-01 15:26:45 sikertelen: a név nem oldható fel; curl: (6) Could not resolve host: ez.a.domain.biztosan.nem.letezik 
+2026-11-01 15:26:45 újrapróbálkozás 2/3, várakozás: 2s
+2026-11-01 15:26:47 kísérlet 3/4: https://ez.a.domain.biztosan.nem.letezik/valami.json
+2026-11-01 15:26:47 sikertelen: a név nem oldható fel; curl: (6) Could not resolve host: ez.a.domain.biztosan.nem.letezik 
+2026-11-01 15:26:47 újrapróbálkozás 3/3, várakozás: 4s
+2026-11-01 15:26:51 kísérlet 4/4: https://ez.a.domain.biztosan.nem.letezik/valami.json
+2026-11-01 15:26:51 sikertelen: a név nem oldható fel; curl: (6) Could not resolve host: ez.a.domain.biztosan.nem.letezik 
+2026-11-01 15:26:51 feladom: https://ez.a.domain.biztosan.nem.letezik/valami.json
+2026-11-01 15:26:51 összefoglaló: 4 sikerült, 2 nem sikerült
+2026-11-01 15:26:51 takarítás kész, kilépési kód: 1

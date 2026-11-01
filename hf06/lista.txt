@@ -1,0 +1,6 @@
+https://api.frankfurter.dev/v1/latest
+https://api.open-meteo.com/v1/forecast?latitude=47.5&longitude=19.05&current=temperature_2m
+https://date.nager.at/api/v3/PublicHolidays/2026/HU
+https://httpbin.org/status/500
+https://httpbin.org/delay/10
+https://ez.a.domain.biztosan.nem.letezik/valami.json
