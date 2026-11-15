@@ -1,4 +1,5 @@
-# Rétegek sorrendje
+# Rétegek sorrendje 
+```
 bundy@WIN-MDLU3IMS43G:~/elte2026/szamrend/szamitogepesrendszerekgyak/hf08$ time docker build --no-cache -t logtool:1.0 .
 [+] Building 12.0s (10/10) FINISHED                                                            docker:default
  => [internal] load build definition from dockerfile                                                     0.0s
@@ -112,9 +113,10 @@ real    0m7.137s
 user    0m0.093s
 sys     0m0.120s
 bundy@WIN-MDLU3IMS43G:~/elte2026/szamrend/szamitogepesrendszerekgyak/hf08$ 
-
+```
 
 # Futtatás
+```
 bundy@WIN-MDLU3IMS43G:~/elte2026/szamrend/szamitogepesrendszerekgyak/hf08$ docker run --rm logtool:1.0 --help
 Hiba: ismeretlen kapcsoló: --help#
 Használat: logtool.sh -f FÁJL [kapcsolók]
@@ -171,3 +173,4 @@ logtool:bad   41000a4c64f2        136MB         34.2MB
 bundy@WIN-MDLU3IMS43G:~/elte2026/szamrend/szamitogepesrendszerekgyak/hf08$ docker run --rm --entrypoint whoami logtool:1.0
 logtool
 bundy@WIN-MDLU3IMS43G:~/elte2026/szamrend/szamitogepesrendszerekgyak/hf08$ 
+```
