@@ -1,0 +1,7 @@
+.git
+.gitignore
+adatok/
+*.log
+README.md
+Dockerfile
+.dockerignore
