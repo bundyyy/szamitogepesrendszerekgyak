@@ -1,3 +1,13 @@
+# Magyarázatok:
+A docker rétegenként gyorsítótáraz; ha egy réteg változik,
+az összes utána következő újraépül. A ritkán változó dolgokat (csomagok)
+előre, a gyakran változót (script) hátra kell tenni.
+
+## Miért :ro a volume végén?
+Csak olvasható csatolás: a konténer nem tudja módosítani vagy törölni a
+host logfájljait. A logtool csak olvas, tehát nincs szüksége írásra; egy
+script hiba (pl. rossz átirányítás, `rm`) vagy egy feltört konténer sem
+tud kárt tenni az eredeti adatokban. Ez a legkisebb jogosultság elve.
 # Rétegek sorrendje 
 ```
 bundy@WIN-MDLU3IMS43G:~/elte2026/szamrend/szamitogepesrendszerekgyak/hf08$ time docker build --no-cache -t logtool:1.0 .
